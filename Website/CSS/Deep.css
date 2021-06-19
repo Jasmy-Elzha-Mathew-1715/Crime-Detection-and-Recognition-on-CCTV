@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.taylortechnologysystems.com%2Fwp-content%2Fuploads%2F2016%2F03%2FCCTV-BACKGROUND.jpg&imgrefurl=https%3A%2F%2Fwww.taylortechnologysystems.com%2Fcctv-3%2Fcctv-background%2F&tbnid=38iM1-6YlikqrM&vet=12ahUKEwijvf_TjPvwAhVQ3HMBHZCbBz8QMyhMegUIARCZAQ..i&docid=nA7cx4VmMwD3rM&w=1920&h=1005&q=cctv%20background&ved=2ahUKEwijvf_TjPvwAhVQ3HMBHZCbBz8QMyhMegUIARCZAQ);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area {
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.model {
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+.model a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.model a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.camera {
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+.camera a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.camera a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 10% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 80px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: ;
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.camera {
+		float: none;
+		margin-top: 0;
+	}
+	.camera li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.camera {
+		text-align: center;
+	}
+	.model {
+		float: none;
+		margin-top: 0;
+	}
+	.model li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.model {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
