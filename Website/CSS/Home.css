@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.taylortechnologysystems.com%2Fwp-content%2Fuploads%2F2016%2F03%2FCCTV-BACKGROUND.jpg&imgrefurl=https%3A%2F%2Fwww.taylortechnologysystems.com%2Fcctv-3%2Fcctv-background%2F&tbnid=38iM1-6YlikqrM&vet=12ahUKEwijvf_TjPvwAhVQ3HMBHZCbBz8QMyhMegUIARCZAQ..i&docid=nA7cx4VmMwD3rM&w=1920&h=1005&q=cctv%20background&ved=2ahUKEwijvf_TjPvwAhVQ3HMBHZCbBz8QMyhMegUIARCZAQ);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.text {
+  padding: 50px;
+  text-align: left;
+  color: white;
+}
+
+.welcome-text {
+  padding: 50px;
+  text-align: left;
+  color: white;
+}
