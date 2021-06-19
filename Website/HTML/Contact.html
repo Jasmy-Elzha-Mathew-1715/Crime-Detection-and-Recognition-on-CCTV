@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>
+Contact Us
+</title>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css"> 
+</head>   
+<body>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h1 style="color:white;">Contact Us</h1>
+    <p><h3 style="color:white;">Leave us a message:</h3></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="bg__contact.jfif" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname"><h4 style="color:white;">First Name</h4></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname"><h4 style="color:white;">Last Name</h4></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country"><h4 style="color:white;">Country</h4></label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+	  <option value="india">India</option>
+	  <option value="new zealand">New Zealand</option>
+	  <option value="uae">UAE</option>
+	  <option value="pakistan">Pakistan</option>
+	  <option value="indonesia">Indonesia</option>
+	  <option value="uk">UK</option>
+	  <option value="germany">Germany</option>
+	  <option value="ireland">Ireland</option>
+        </select>
+        <label for="subject"><h4 style="color:white;">Subject</h4></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
